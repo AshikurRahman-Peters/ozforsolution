@@ -1,0 +1,477 @@
+/* Responsive Design */
+@media (max-width: 1100px) {
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan-card {
+        margin-bottom: 2rem;
+    }
+
+    .notch-image {
+        top: 32px;
+        left: 48%;
+        height: 158px;
+    }
+}
+
+/* Tablets (≤ 992px) */
+@media (max-width: 992px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.85rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .three-columns,
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* Mobile Portrait / Small Phones (≤ 480px) */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.15rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .section-one {
+        background-position: none;
+        padding: 53px 20px 170px 0px;
+        margin-top: -35px;
+    }
+
+    .shape-content {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        display: flex;
+        width: 94%;
+        left: 3%;
+        color: white;
+        top: 62%;
+        border: 3px dotted #fff;
+        border-radius: 71px;
+    }
+
+    .footer-about,
+    .footer-column {
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .section-one .top-right {
+        right: 0% !important;
+    }
+
+    .top-rounded {
+        display: none;
+    }
+
+    .circle-container .main-img {
+        max-width: 100%;
+    }
+
+    .notch-image {
+        top: 32px;
+        left: 48%;
+        height: 158px;
+    }
+
+    .left-col p {
+        font-size: 10px;
+    }
+
+    .right-col p {
+        font-size: 10px;
+    }
+
+    .shape-svg {
+        position: absolute;
+        top: -18px;
+        left: -24px;
+        width: 105%;
+        height: 372%;
+        z-index: 0;
+    }
+
+    .right-col {
+        max-width: none;
+        margin-left: none;
+        padding: none;
+    }
+
+    .left-col {
+        max-width: none;
+        margin-left: none;
+        padding: none;
+    }
+
+    /* Icon 1 - Top Right */
+    @keyframes move1 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 70px;
+            left: 250px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    /* Icon 2 - Bottom Left */
+    @keyframes move2 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 250px;
+            left: 0px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    /* Icon 3 - Bottom Right */
+    @keyframes move3 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 300px;
+            left: 250px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    /* Icon 4 - Top Left */
+    @keyframes move4 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 100px;
+            left: 0px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    .section-one {
+
+        min-height: auto;
+        display: block;
+        /* stack content vertically */
+        text-align: center;
+    }
+
+    .section-one .row {
+        flex-direction: column;
+    }
+
+    .section-one .col-md-6 {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .section-one h3 {
+        font-size: 1.6rem;
+    }
+
+    .section-one p {
+        font-size: 1rem;
+    }
+
+    .newsletter,
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .section-one {
+        background-position: none;
+        padding: 53px 20px 170px 0px;
+        margin-top: -35px;
+    }
+
+
+
+    .main-header h1 {
+        font-size: 2rem;
+    }
+
+    .plan-card {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .section-one .top-right {
+        right: 0% !important;
+    }
+
+    .top-rounded {
+        display: none;
+    }
+
+    .circle-container .main-img {
+        max-width: 100%;
+    }
+
+    .notch-image {
+        top: 39px;
+        left: 52%;
+        height: 158px;
+    }
+
+    .left-col p {
+        font-size: 11px;
+    }
+
+    .right-col p {
+        font-size: 11px;
+    }
+
+    .shape-content {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+        display: flex;
+        width: 94%;
+        left: 3%;
+        color: white;
+        top: 62%;
+        border: 3px dotted #fff;
+        border-radius: 71px;
+    }
+
+    .shape-svg {
+        position: absolute;
+        top: -42px;
+        left: -21px;
+        width: 112%;
+        height: 372%;
+        z-index: 0;
+
+    }
+
+    .right-col {
+        max-width: none;
+        margin-left: none;
+        padding: none;
+    }
+
+    .left-col {
+        max-width: none;
+        margin-left: none;
+        padding: none;
+    }
+
+    /* Icon 1 - Top Right */
+    @keyframes move1 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 90px;
+            left: 250px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    /* Icon 2 - Bottom Left */
+    @keyframes move2 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 270px;
+            left: -10px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    /* Icon 3 - Bottom Right */
+    @keyframes move3 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 300px;
+            left: 250px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    /* Icon 4 - Top Left */
+    @keyframes move4 {
+        0% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.5);
+            opacity: 0;
+        }
+
+        30% {
+            opacity: 1;
+        }
+
+        100% {
+            top: 80px;
+            left: -10px;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    .icon img {
+        max-width: 35%;
+        max-height: 35%;
+    }
+
+    .left-col {
+        padding: 0px;
+        margin-left: 30%;
+        margin-top: 20px;
+        width: 71%;
+    }
+
+    .right-col {
+        margin-left: 7%;
+        padding: 0px;
+        width: 70%;
+    }
+
+
+}
